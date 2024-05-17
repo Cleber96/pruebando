@@ -1,0 +1,4 @@
+encontrar la 
+
+nano ~/.gitconfig
+
