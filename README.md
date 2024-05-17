@@ -1,4 +1,5 @@
 encontrar la 
 
-nano ~/.gitconfig
+cambio pape
+
 
