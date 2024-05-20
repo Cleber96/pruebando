@@ -31,6 +31,11 @@ Capacidad de un sistema para impedir acciones malintencionadas o accidentales aj
 Grado en que el app cumple los requisitos  del user siendo intuitíva y ofreciendo una buena experiencia 
 
 ### caso: REDDIT: red social
-- iteracción entre usuario
-- origen: usuario en busca de contenido de un tema de interés
-- estímulo: busca tema de interés para la interacción
+![imagen1](https://github.com/Cleber96/pruebando/blob/main/image6.jpeg)
+- busqueda intuitivo de la página sobre temas de interés
+- origen: usuario en busca tema de interés de acceso sencillo
+- estímulo: encontrar tema de interés accesible (comodidad) para intereacción
+- entorno: gran comunidad de usuarios concurrentes. latencia 209 milisegundos desde que el usuario entra a la página y realiza una busqueda
+![imagen1](https://github.com/Cleber96/pruebando/blob/main/image7.jpeg)
+Artefacto: sitio web AMAZON service
+Respuesta: viaje de ida y vuelta desde que el usuario busca entra a la página mediante el navegador y muestra el inicio
