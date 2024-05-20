@@ -24,6 +24,7 @@ artefacto: sitio web almacena su infrectructura en AWS
 
 ## > SEGURIDAD: (en tiempo de ejecución)
 Capacidad de un sistema para impedir acciones malintencionadas o accidentales ajenas al uso previsto
+Métrica: Actividad de programas de Bug Bounty
 ![imagen1](https://github.com/Cleber96/pruebando/blob/main/image4.jpeg)
 ![imagen2](https://github.com/Cleber96/pruebando/blob/main/image5.jpeg)
 
