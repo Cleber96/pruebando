@@ -29,7 +29,7 @@ Capacidad de un sistema para impedir acciones malintencionadas o accidentales aj
 
 ## > USABILIDAD:
 Grado en que el app cumple los requisitos  del user siendo intuitíva y ofreciendo una buena experiencia 
-
+## descripción de escenario
 ### caso: REDDIT: red social
 ![imagen1](https://github.com/Cleber96/pruebando/blob/main/image6.jpeg)
 - busqueda intuitivo de la página sobre temas de interés
