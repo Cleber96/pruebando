@@ -6,9 +6,9 @@ caso: REDDIT: red social
 - estímulo: busca tema de interés para la interacción
 - entorno: sistema operando de manera continua con gran cantidad de usuario. la latencia es 485ms desde el navegador del clientes hasata el sitio
 artefacto: sitio web almacena su infrectructura en AWS
-![imagen1](https://github.com/Cleber96/pruebando.git/image1.jpeg)
-![imagen2](https://github.com/Cleber96/pruebando.git/image2.jpeg)
-![imagen3](https://github.com/Cleber96/pruebando.git/image3.jpeg)
+![imagen1](https://github.com/Cleber96/pruebando/blob/main/image1.jpeg)
+![imagen2](https://github.com/Cleber96/pruebando/blob/main/image2.jpeg)
+![imagen3](https://github.com/Cleber96/pruebando/blob/main/image3.jpeg)
 - respuesta: viaje de ida y vuelta hasta que se muestre los resultados relacionados al temas buscado
 
 disponibilidad: (en tiempo de ejecución) 
