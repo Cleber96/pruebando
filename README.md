@@ -1,5 +1,6 @@
-# atributos de calidad
-## rendimiento: (en tiempo de ejecución) 
+# ATRIBUTOS DE CALIDAD
+# calidad en tiempo de ejecución
+## rendimiento
 capacidad de respuesta de un sistema para ejecitar cualquier acción en un intervalo de tiempo. puede medirse en tiempo de latencia
 
 ## descripción de escenario
@@ -13,11 +14,12 @@ artefacto: sitio web almacena su infrectructura en AWS
 ![imagen2](https://github.com/Cleber96/pruebando/blob/main/image2.jpeg)
 ![imagen3](https://github.com/Cleber96/pruebando/blob/main/image3.jpeg)
 - respuesta: viaje de ida y vuelta hasta que se muestre los resultados relacionados al temas buscado
-
+# calidad en tiempo de ejecución
 ## seguridad: (en tiempo de ejecución) 
 ![imagen1](https://github.com/Cleber96/pruebando/blob/main/image4.jpeg)
 ![imagen2](https://github.com/Cleber96/pruebando/blob/main/image5.jpeg)
-## usabilidad: (calidad de usuario)
+# calidad en interacción con el usuario
+## usabilidad:
 grado en que el app cumple los requisitos  del user siendo intuitíva y ofreciendo una buena experiencia 
 
 ### caso: REDDIT: red social
