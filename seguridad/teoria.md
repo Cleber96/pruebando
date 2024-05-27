@@ -14,16 +14,24 @@
 - **Estrategia**: Desarrollar estrategias específicas para cada categoría de riesgo.
 
 #### 2. Evaluación del costo y beneficio de riesgos y su prevención:
-**• ¿Cuáles son los desafíos principales al evaluar el costo y beneficio de las medidas de seguridad?**
-- **Estimación de Costos**: Dificultad para estimar los costos reales de las medidas de seguridad.
-- **Medición de Beneficios**: Dificultad para cuantificar beneficios intangibles.
-- **Cambio Constante**: Evolución continua de amenazas y tecnologías.
+• ¿Cuáles son los desafíos principales al evaluar el costo y beneficio de las medidas de
+seguridad?
 
-**• ¿Qué métodos cuantitativos y cualitativos se pueden utilizar para evaluar estos costos y beneficios?**
-- **Análisis Costo-Beneficio**: Compara costos con beneficios esperados.
-- **Valor Presente Neto (VPN)**: Evalúa la rentabilidad a lo largo del tiempo.
-- **Análisis de Retorno de Inversión (ROI)**: Calcula el retorno esperado de la inversión en seguridad.
-- **Evaluaciones Cualitativas**: Uso de encuestas y opiniones de expertos.
+Siempre habrá riesgo en un sistema, por lo que se evaluan 3 situaciones:
+- Si el daño será asumido totalmente por el sistema
+- Si el daño será mitigado
+- Si el daño será trasladado
+
+En base a esas 3 situaciones, se deben categorizar según el impacto y la probabilidad de ocurrencia.
+Esto se puede evaluar según el valor del recurso para la empresa o el coste de recuperación. Sin embargo, hay recursos que son difíciles
+de evaluar, como la reputación de la empresa. Otra dificultad que podría haber es la incertidumbre de la ocurrencia.
+
+• ¿Qué métodos cuantitativos y cualitativos se pueden utilizar para evaluar estos
+costos y beneficios?
+
+Los costos y beneficios se pueden evaluar según diversos métodos.
+Un método cuantitativo es el análisis de costo, que incluye el coste del software y hardware, como los costes de capacitación y servicios de auditoria.
+Un método cualitativo es el análisis de riesgos, el cual está asociado con la implementación y mantenimiento de seguridad. Esto se puede evaluar usando una matriz de riesgos.
 
 #### 3. Identificación de principios, recursos y operaciones sensibles:
 **• ¿Qué criterios se deben considerar al identificar operaciones sensibles en un entorno empresarial?**
@@ -38,16 +46,16 @@
 - **Matriz de Riesgos**: Crear una matriz que relacione recursos con niveles de riesgo.
 
 #### 4. Identificación de recursos sensibles:
-**• ¿Qué técnicas se pueden emplear para identificar recursos sensibles en un sistema complejo?**
-- **Inventario de Activos**: Crear un inventario detallado de todos los activos.
-- **Análisis de Dependencias**: Identificar dependencias críticas entre recursos.
-- **Evaluación de Impacto**: Determinar el impacto potencial de la pérdida de cada recurso.
-- **Entrevistas y Encuestas**: Recopilar información de personal clave.
+• ¿Qué técnicas se pueden emplear para identificar recursos sensibles en un sistema
+complejo?
 
-**• ¿Cómo afecta la arquitectura del sistema a la identificación y protección de recursos sensibles?**
-- **Topología del Sistema**: Influye en la ubicación y protección de recursos.
-- **Segmentación de Red**: Facilita la protección de recursos mediante la segmentación.
-- **Diseño de Seguridad**: Integración de seguridad en el diseño del sistema.
+Se pueden evaluar las vulnerabilidades y amenazas para cada recurso y luego evaluar su importancia y su sensibilidad.
+Además, se puede determinar el impacto que tiene cada recurso en el negocio en caso dicho recurso sea afectado.
+
+
+• ¿Cómo afecta la arquitectura del sistema a la identificación y protección de recursos sensibles?
+La arquitectura del sistema tiene un papel crucial en la seguridad. Se deben elaborar una segmentación y segregación de la red para tener un mejor control
+sobre cada subred. Además, se deben de implementar firewalls o sistemas de detección de intrusos para proteger los recursos sensibles.
 
 #### 5. Análisis de ataques:
 **• ¿Qué características pueden definir a un atacante y cómo pueden variar dependiendo del contexto del sistema?**
@@ -64,17 +72,19 @@
 - **Anticipación**: Implementación de sistemas de detección y respuesta proactiva.
 
 #### 6. Evolución de recursos, ataques y mejores prácticas:
-**• ¿Qué procesos se deben implementar para asegurar que la seguridad evolucione junto con el entorno tecnológico?**
-- **Evaluación Continua**: Revisión y actualización periódica de las políticas y prácticas de seguridad.
-- **Capacitación Regular**: Formación continua del personal en nuevas amenazas y tecnologías.
-- **Monitoreo y Análisis**: Monitoreo constante del entorno tecnológico y las amenazas.
-- **Adaptación Proactiva**: Ajustar las medidas de seguridad a los cambios tecnológicos.
+• ¿Qué procesos se deben implementar para asegurar que la seguridad evolucione
+junto con el entorno tecnológico?
 
-**• ¿Cómo se puede medir la efectividad de las mejores prácticas de seguridad a lo largo del tiempo?**
-- **Indicadores de Rendimiento (KPIs)**: Definir y monitorear KPIs relacionados con la seguridad.
-- **Auditorías Regulares**: Realizar auditorías periódicas para evaluar la efectividad.
-- **Simulaciones de Ataque**: Utilizar pruebas de penetración y equipos rojos.
-- **Retroalimentación**: Recoger y analizar retroalimentación de incidentes de seguridad.
+La seguridad tiene que ser un proceso continuo. Esto debido a que cada día se descubren nuevas vulnerabilidades y estas podrían afectar a nuestro entorno.
+Por ende, se deben de instalar los parches más recientes a cada programa de tal manera que se reduzca el riesgo de que nuestra red sea comprometida.
+Además, se podrían realizar auditorias cada cierto tiempo para evaluar cómo evoluciona la seguridad de nuestro sistema.
+
+• ¿Cómo se puede medir la efectividad de las mejores prácticas de seguridad a lo largo
+del tiempo?
+
+Se podrian elaborar simulacros de incidentes para medir la respuesta de la organización ante determinados escenarios.
+Otra forma de medir la mejora en la seguridad es comparar las métricas a lo largo del tiempo, como la cantidad de vulnerabilidades altas o críticas.
+
 
 #### 7. Análisis de riesgos y características del actor:
 **• ¿Qué herramientas se pueden usar para realizar un análisis exhaustivo de las características de los actores involucrados en un ataque?**
@@ -91,22 +101,20 @@
 #### Modelos de Árboles de Ataque
 
 #### 8. Equipo rojo y identificación de vectores de ataque:
-**• ¿Qué ventajas y desventajas tiene el uso de equipos rojos en la evaluación de la seguridad de un sistema?**
-- **Ventajas**:
-  - **Identificación Proactiva**: Descubrimiento de vulnerabilidades antes de que los atacantes reales las exploten.
-  - **Mejora Continua**: Ofrece retroalimentación para mejorar las defensas.
-  - **Entrenamiento Realista**: Proporciona escenarios de ataque realistas para el equipo de defensa.
-- **Desventajas**:
-  - **Coste**: Puede ser costoso contratar o mantener un equipo rojo.
-  - **Posible Daño**: Simulaciones de ataque pueden causar interrupciones en sistemas críticos.
-  - **Dependencia**: Riesgo de depender demasiado del equipo rojo y no mejorar otras áreas de seguridad.
+• ¿Qué ventajas y desventajas tiene el uso de equipos rojos en la evaluación de la
+seguridad de un sistema?
 
-**• ¿Cómo se puede estructurar un árbol de ataque para maximizar la identificación de vectores de ataque potenciales?**
-- **Descomposición Jerárquica**: Descomponer el objetivo principal en sub-objetivos y tareas específicas.
-- **Nodos Detallados**: Incluir detalles específicos en cada nodo del árbol.
-- **Escenarios Realistas**: Incorporar escenarios de ataque realistas basados en inteligencia de amenazas.
-- **Actualización Regular**: Mantener el árbol actualizado con las nuevas amenazas y vectores de ataque.
-- **Colaboración**: Involucrar a diferentes equipos (desarrollo, operaciones, seguridad) en la creación y revisión del árbol.
+Contratar un servicio de red team sirve para simular un escenario de ataque real, en la que probablemente se pueda comprometer toda la red.
+Esto es util porque luego de realizar las pruebas, el equipo de red team te proporcionará recomendaciones para mejorar la seguridad del sistema y mitigar las vulnerabilidades encontradas.
+Las desventajas de contratar este servicio podrían ser su alto coste y un posible impacto en la producción al momento de realizar las pruebas, como la saturación de la red.
+
+
+• ¿Cómo se puede estructurar un árbol de ataque para maximizar la identificación de
+vectores de ataque potenciales?
+
+Para la elaboración de un árbol de ataque se deben de identificar los recursos críticos del sistema, ya que estos probablemente sean el objetivo de los atacantes.
+Además, se deben de identificar las posibles amenazas y estas se deben de descomponer en distintos vectores de ataque. Por ejemplo, una posible amenaza es el acceso no autorizado a la base de datos.
+Los posibles vectores de ataque que conducen a este escenario puede ser el acceso por fuerza bruta, explotación de vulnerabilidades en el software, ataques de phishing para el robo de credenciales, etc.
 
 #### 9. Documentación y análisis de resultados:
 **• ¿Qué formato es el más adecuado para documentar los resultados de un análisis de seguridad utilizando un árbol de ataque?**
@@ -123,22 +131,15 @@
 - **Comparación con Marcos Estándar**: Comparar el árbol con marcos de referencia estándar de la industria.
 
 #### 10. Ataques internos vs externos:
-**• ¿Por qué los ataques internos suelen ser más comunes que los externos y cómo se puede mitigar este riesgo?**
-- **Acceso Privilegiado**: Los empleados internos ya tienen acceso a recursos críticos.
-- **Conocimiento del Sistema**: Conocen mejor los sistemas y sus vulnerabilidades.
-- **Motivación**: Pueden tener motivaciones personales como el descontento o la ganancia financiera.
-- **Mitigación**:
-  - **Monitoreo Constante**: Monitoreo continuo de actividades internas.
-  - **Segregación de Funciones**: Separar tareas críticas para prevenir abusos.
-  - **Educación y Conciencia**: Formación en seguridad y ética.
-  - **Políticas Claras**: Implementar políticas de seguridad estrictas y claras.
+• ¿Por qué los ataques internos suelen ser más comunes que los externos y cómo se
+puede mitigar este riesgo?
 
-**• ¿Qué medidas específicas se pueden implementar para detectar y prevenir ataques internos?**
-- **Sistemas de Detección de Intrusos (IDS)**: Implementar IDS específicamente configurados para detectar actividades internas sospechosas.
-- **Política de Privilegios Mínimos**: Otorgar solo los permisos necesarios para realizar el trabajo.
-- **Auditorías Regulares**: Realizar auditorías de seguridad internas de forma regular.
-- **Programas de Conciencia**: Educar a los empleados sobre la importancia de la seguridad y las posibles amenazas internas.
-- **Controles de Acceso Físico y Lógico**: Implementar controles de acceso estrictos tanto físicos como lógicos.
+Los ataques internos suelen ser más comunes y efectivos por la razón a que ya estás dentro de la red y probablemente haya muchas personas trabajando en dicha red.
+El problema está en la cantidad de pesonas, por lo que las medidas de seguridad pueden ser difíciles de cumplir, por lo que habrá brechas de seguridad debido al factor humano.
+Para mitigar el riesgo se puede realizar un monitoreo de eventos en la red para detectar comportamientos sospechosos. Además, se pueden elaborar campañas de concientización, como las campañas de phishing.
+
+• ¿Qué medidas específicas se pueden implementar para detectar y prevenir ataques
+internos?
 
 #### 11. Mejores prácticas:
 **• ¿Cómo se pueden adaptar las mejores prácticas de seguridad para diferentes industrias y contextos específicos?**
@@ -158,17 +159,18 @@
   - **Colaboración**: Colaborar con otras organizaciones para compartir recursos y conocimientos.
 
 #### 12. Principios de seguridad reconocidos:
-**• ¿Cómo se puede implementar el principio de menor privilegio de manera efectiva en una organización grande y compleja?**
-- **Evaluación de Roles**: Definir y evaluar claramente los roles y permisos necesarios.
-- **Automatización de Acceso**: Utilizar sistemas automatizados para gestionar y revisar los permisos de acceso.
-- **Revisión Periódica**: Revisar regularmente los permisos otorgados a los usuarios.
-- **Auditorías de Acceso**: Realizar auditorías de acceso para identificar y corregir excesos de privilegios.
+• ¿Cómo se puede implementar el principio de menor privilegio de manera efectiva en
+una organización grande y compleja?
 
-**• ¿Qué estrategias se pueden utilizar para asegurar el eslabón más débil en una cadena de seguridad?**
-- **Capacitación y Concienciación**: Educar continuamente a los empleados sobre la importancia de la seguridad.
-- **Sistemas de Detección de Intrusos (IDS)**: Implementar sistemas de detección de intrusos para identificar actividades sospechosas.
-- **Política de Contraseñas**: Implementar políticas de contraseñas fuertes y seguras.
-- **Simulaciones de Phishing**: Realizar simulaciones de ataques de phishing para entrenar a los empleados.
+Se puede implementar el principio de menor privilegio realizando un análisis de las responsabilidades de cada sector. Mediante el uso de políticas de acceso, se pueden definir los roles para gestionar el acceso a los recursos.
+Además, es necesario segregar correctamente las funciones de cada usuario para asegurarnos de que no haya un usuario con acceso a muchas funciones críticas del sistema.
+
+• ¿Qué estrategias se pueden utilizar para asegurar el eslabón más débil en una
+cadena de seguridad?
+
+Para asegurar el recurso más débil en un sistema, se puede realizar un monitoreo a los eventos realizados en dicho recurso. Sin embargo, los hechos
+comprueban que el eslabón más débil suele ser el factor humano, por lo que realizar campañas de concientización es una estrategia importante.
+
 
 #### 13. Organización de auditorías:
 **• ¿Cuáles son los componentes clave de una auditoría de seguridad eficaz?**
@@ -187,17 +189,17 @@
   - **Comunicación Eficaz**: Establecer canales de comunicación claros y eficaces entre los equipos.
 
 #### 14. Registro y monitoreo:
-**• ¿Cómo se puede garantizar la integridad y confidencialidad de los registros de auditoría en un entorno de alta seguridad?**
-- **Cifrado de Registros**: Cifrar los registros de auditoría para proteger su confidencialidad.
-- **Control de Acceso**: Implementar controles de acceso estrictos para los registros de auditoría.
-- **Firma Digital**: Utilizar firmas digitales para garantizar la integridad de los registros.
-- **Almacenamiento Seguro**: Almacenar los registros en ubicaciones seguras y protegidas.
+• ¿Cómo se puede garantizar la integridad y confidencialidad de los registros de
+auditoría en un entorno de alta seguridad?
 
-**• ¿Qué técnicas de análisis se pueden utilizar para detectar patrones de comportamiento sospechoso en los registros de acceso?**
-- **Análisis de Anomalías**: Utilizar herramientas de análisis para detectar comportamientos inusuales.
-- **Machine Learning**: Implementar algoritmos de aprendizaje automático para identificar patrones sospechosos.
-- **Correlación de Eventos**: Correlacionar diferentes eventos para identificar actividades maliciosas.
-- **Revisión Manual**: Realizar revisiones manuales de registros críticos.
+Para garantizar la confidencialidad de los registros de auditoria se deben implementar controles de acceso. Además, estos registros de auditoria
+deben de estar en una subred distinta, para evitar el acceso no deseado. 
+
+• ¿Qué técnicas de análisis se pueden utilizar para detectar patrones de
+comportamiento sospechoso en los registros de acceso?
+
+Para la detección de patrones sospechosos se pueden implementar sistemas de supervisión en tiempo real, permitiendo así una respuesta rápida ante posibles amenazas.
+Estos sistemas suelen detectar secuencias de comandos maliciosos en los registros de acceso, lo que podría significar que se está intentando comprometer nuestro sistema.
 
 #### 15. Verificación y Control de Acceso:
 **• ¿Qué métodos avanzados de autenticación y autorización se pueden implementar para asegurar la fiabilidad en sistemas críticos?**
@@ -213,14 +215,13 @@
 - **Automatización**: Uso de herramientas IAM para gestionar y revisar la matriz de control de acceso.
 
 #### 16. Privacidad y cifrado:
-**• ¿Qué técnicas de cifrado son más adecuadas para proteger la información en tránsito frente a diversas amenazas?**
-- **TLS (Transport Layer Security)**: Cifrado para asegurar la comunicación en tránsito.
-- **VPN (Virtual Private Network)**: Uso de VPNs para asegurar las conexiones remotas.
-- **IPSec**: Protocolo de seguridad para asegurar las comunicaciones a nivel de red.
-- **Cifrado de Punto a Punto (E2EE)**: Asegurar que solo los comunicadores pueden leer los mensajes.
+• ¿Qué técnicas de cifrado son más adecuadas para proteger la información en
+tránsito frente a diversas amenazas?
 
-**• ¿Cómo se puede equilibrar la necesidad de privacidad con los requisitos operacionales de acceso a datos en una empresa?**
-- **Control de Acceso Basado en Roles (RBAC)**: Asignar permisos según roles específicos.
-- **Cifrado Selectivo**: Cifrar solo los datos más sensibles.
-- **Monitoreo y Auditoría**: Implementar monitoreo y auditoría continua de accesos a datos.
-- **Políticas de Privacidad**: Establecer y cumplir políticas de privacidad claras que equilibren el acceso y la protección de datos.
+Para proteger la información en tránsito, es necesario que la comunicación se realice por medio de un canal cifrado. Esto se puede realizar
+con el uso de protocolos de comunicación seguros (HTTPS, SSH) o mediante el uso de VPN.
+
+• ¿Cómo se puede equilibrar la necesidad de privacidad con los requisitos
+operacionales de acceso a datos en una empresa?
+
+Para equilibrar la privacidad del empleado con los requisitos de acceso a datos en una empresa, es necesario que se establezca un acuerdo entre ambos para que no hayan problemas en el manejo de datos personales. 
